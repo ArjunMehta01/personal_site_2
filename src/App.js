@@ -2,6 +2,9 @@ import React from "react";
 import tw from "tailwind-styled-components";
 import "../dist/output.css";
 
+import Projects from "./pages/Projects";
+
+
 const Helo = tw.div`
     bg-red-800
     h-screen
@@ -19,7 +22,9 @@ import {
 
 const App = () => {
     return (
-        <Helo></Helo>
+        <div>
+            <Projects />
+        </div>
     )
 }
 
