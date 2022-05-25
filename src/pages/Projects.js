@@ -6,8 +6,10 @@ const Projects = () => {
     return (
         <>
             <Navbar />
-            <ProjectCard>THis is</ProjectCard>
-        </>    
+            <div className="flex flex-row flex-wrap justify-center">
+                <ProjectCard title="tester" description="test_d" tags={["Python", "c++"]}></ProjectCard>
+            </div> 
+        </>   
     )
 }
 

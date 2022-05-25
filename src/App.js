@@ -22,7 +22,7 @@ import {
 
 const App = () => {
     return (
-        <div>
+        <div className="max-h-screen">
             <Projects />
         </div>
     )
