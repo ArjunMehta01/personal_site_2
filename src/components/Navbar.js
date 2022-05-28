@@ -7,15 +7,18 @@ const NavContainer = tw.div`
     w-screen
     bg-emerald-300
     flex-row
-    row
+    rounded-b-lg
+`;
+
+const Name = tw.p`
+    p-2
 `;
 
 const Navbar = () => {
     return (
         <NavContainer>
-            <p>NIGHTMARE</p>
-            <p>NIGHTMARE</p>
-            <p>NIGHTMARE</p>
+            <Name>About Me</Name>
+            <Name>Projects</Name>
         </NavContainer>
     );
 }
