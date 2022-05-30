@@ -3,6 +3,7 @@ import tw from "tailwind-styled-components";
 import "../dist/output.css";
 
 import Projects from "./pages/Projects";
+import Work from "./pages/Work";
 
 
 const Helo = tw.div`
@@ -23,7 +24,8 @@ import {
 const App = () => {
     return (
         <div className="max-h-screen">
-            <Projects />
+            {/* <Projects /> */}
+            <Work />
         </div>
     )
 }

@@ -17,8 +17,11 @@ const Name = tw.p`
 const Navbar = () => {
     return (
         <NavContainer>
-            <Name>About Me</Name>
             <Name>Projects</Name>
+            <Name>About Me</Name>
+            <Name>Work</Name>
+            <Name>Resume</Name>
+            <Name>Summary</Name>
         </NavContainer>
     );
 }

@@ -5,7 +5,7 @@ import { useNavigate } from "react-router-dom";
 const PCard = tw.div`
     grid
     grid-cols-5
-    row-span-2
+    grid-rows-5
     rounded-lg
     w-[36rem]
     min-w-[36rem]
