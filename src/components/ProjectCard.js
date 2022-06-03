@@ -5,16 +5,16 @@ import { useNavigate } from "react-router-dom";
 const PCard = tw.div`
     grid
     grid-cols-5
-    grid-rows-5
+    grid-rows-2
     rounded-lg
     w-[36rem]
     min-w-[36rem]
-    min-h-[13rem]
     m-8
     h-52
     max-w-[50%]
     bg-purple-900
     shadow-md
+    hover: 
 `;
 
 const Tag = tw.div`
@@ -55,6 +55,7 @@ const ProjectCard = (props) => {
                     <p>{props.description}</p>
                 </div>
                 <TagHolder>
+                    {/* align tags at bottom of page but add some padding below */}
                     {props.tags.map((lang) => {
                         return <Tag key={lang}>{lang}</Tag>
                     })}

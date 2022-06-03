@@ -4,7 +4,7 @@ import "../dist/output.css";
 
 import Projects from "./pages/Projects";
 import Work from "./pages/Work";
-
+import About from "./pages/About";
 
 const Helo = tw.div`
     bg-red-800
@@ -24,8 +24,9 @@ import {
 const App = () => {
     return (
         <div className="max-h-screen">
-            <Projects />
+            {/* <Projects /> */}
             {/* <Work /> */}
+            <About />
         </div>
     )
 }

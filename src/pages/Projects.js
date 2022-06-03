@@ -40,6 +40,8 @@ const Projects = () => {
                     <SpecialText>Hi I'm Arjun. I go to the <span className="text-green-700">University of Alberta</span> and study <span className="text-yellow-300">Software Engineering.</span></SpecialText>
                 </BigTextContainer>
                 <ProjectCard title="tester" description="test_d" tags={["Python", "c++"]}></ProjectCard>
+                <ProjectCard title="tester" description="test_d" tags={["Python", "c++"]}></ProjectCard>
+                <ProjectCard title="tester" description="test_d" tags={["Python", "c++"]}></ProjectCard>
             </div> 
         </>   
     )
