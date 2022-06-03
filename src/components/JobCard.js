@@ -5,11 +5,11 @@ import { useNavigate } from "react-router-dom";
 const JCard = tw.div`
     grid
     grid-cols-1
-    grid-rows-2
+    grid-rows-3
     rounded-lg
     w-[32rem]
     m-8
-    h-48
+    h-52
     max-w-[50%]
     bg-yellow-400
     shadow-md
@@ -22,7 +22,7 @@ const Info = tw.div`
 `;
 
 const Header = tw.div`
-    row-span-1
+    row-span-2
     rounded-t-lg
 `;
 

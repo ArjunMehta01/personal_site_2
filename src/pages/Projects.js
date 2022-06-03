@@ -17,7 +17,7 @@ const BigTextContainer = tw.div`
 const FunContainer = tw.div`
     content-center
     justify-center
-    w-[60%]
+    w-[50%]
     h-96
     bg-slate-400
     mt-3

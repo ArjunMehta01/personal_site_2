@@ -24,8 +24,8 @@ import {
 const App = () => {
     return (
         <div className="max-h-screen">
-            {/* <Projects /> */}
-            <Work />
+            <Projects />
+            {/* <Work /> */}
         </div>
     )
 }
