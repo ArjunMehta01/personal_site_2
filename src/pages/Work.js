@@ -28,10 +28,11 @@ const Year = tw.h1`
 
 `;
 
-
+// IDEA: gradients to job card
 const Work = () => {
     return (
         <>
+        
             <div className="flex flex-row flex-wrap justify-center">
                 <Navbar />
                 <JobCard role="Software Development Intern" org="PulseMedica" date="Jan. 2022 - Present">
@@ -54,20 +55,18 @@ const Work = () => {
                 </AccompsHeader>
                 <Accomps>
                         <div>
-                            <Year className="text-5xl">2022</Year>
+                            {/* center text in this div */}
+                            <Year className="text-5xl self-center">2022</Year>
                         </div>
                         <div>
-                            <Event name="Hack Ed 2022">
-                                Hackathon
+                            <Event name="Calgary Collegiate Programming Competition">
+                                Participated in the CCPC. Solved problem X percentage of teams solved
+                            </Event>
+                            <Event name="Enactus something something contest">
+                                Won $3000 dollars and first place for startup
                             </Event>
                             <Event name="Hack Ed 2022">
-                                Hackathon
-                            </Event>
-                            <Event name="Hack Ed 2022">
-                                Hackathon
-                            </Event>
-                            <Event name="Hack Ed 2022">
-                                Hackathon
+                                Submitted the Kumquat NFT sandbox
                             </Event>
                         </div>
                 </Accomps>

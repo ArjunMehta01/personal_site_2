@@ -21,12 +21,14 @@ import {
 } from "react-router-dom";
 
 
+
+// IDEA: gradients to cards
 const App = () => {
     return (
         <div className="max-h-screen">
             {/* <Projects /> */}
-            {/* <Work /> */}
-            <About />
+            <Work />
+            {/* <About /> */}
         </div>
     )
 }

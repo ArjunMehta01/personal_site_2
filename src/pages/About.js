@@ -15,7 +15,7 @@ const About = (props) => {
     return (
         <>
             <Navbar />
-            <div className=" flex flex-row p-2">
+            <div className=" flex flex-row p-2 w-full">
                 <div className="w-96">
                     <h1 className="text-xlg">
                         Hi my name is Arjun Mehta.
