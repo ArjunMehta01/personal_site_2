@@ -54,9 +54,8 @@ const Work = () => {
                     </h1>
                 </AccompsHeader>
                 <Accomps>
-                        <div>
-                            {/* center text in this div */}
-                            <Year className="text-5xl self-center">2022</Year>
+                        <div className=" h-full flex justify-center items-center">
+                            <Year className="text-5xl">2022</Year>
                         </div>
                         <div>
                             <Event name="Calgary Collegiate Programming Competition">

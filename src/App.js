@@ -6,11 +6,6 @@ import Projects from "./pages/Projects";
 import Work from "./pages/Work";
 import About from "./pages/About";
 
-const Helo = tw.div`
-    bg-red-800
-    h-screen
-`;
-
 
 import { 
     BrowserRouter as Router, 
@@ -20,15 +15,17 @@ import {
     Redirect,
 } from "react-router-dom";
 
+const Helo = tw.div`
+    bg-red-800
+    h-screen
+`;
 
-
-// IDEA: gradients to cards
 const App = () => {
     return (
         <div className="max-h-screen">
-            {/* <Projects /> */}
-            <Work />
-            {/* <About /> */}
+            <Route path="/" element={<Projects />} />
+            <Route path="/work" element={<Work />} />
+            <Route path="/about" element={<About />} />
         </div>
     )
 }

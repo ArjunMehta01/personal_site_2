@@ -26,6 +26,8 @@ const Tag = tw.div`
     border-1
     border-black
     h-6
+    mx-1
+    my-2
 `;
 
 const ImageHolder = tw.div`
@@ -40,6 +42,9 @@ const ImageHolder = tw.div`
 const TagHolder = tw.div`
     flex
     flex-row
+    justify-items-start
+    items-end
+    bg-red-500
     align-baseline
     col-start-1
     col-end-4

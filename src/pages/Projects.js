@@ -5,13 +5,16 @@ import ProjectCard from "../components/ProjectCard";
 
 const BigTextContainer = tw.div`
     content-center
+    flex
     justify-center
+    items-center
     w-[40%]
     h-30rem
     font-extrabold
     text-black
     text-2xl
     text-wrap
+    w-max-full
 `;
 
 const FunContainer = tw.div`
