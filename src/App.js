@@ -8,9 +8,9 @@ import About from "./pages/About";
 
 
 import { 
-    BrowserRouter as Router, 
-    Route, 
-    Switch, 
+    BrowserRouter, 
+    Route,
+    Routes, 
     Link, 
     Redirect,
 } from "react-router-dom";
@@ -22,11 +22,15 @@ const Helo = tw.div`
 
 const App = () => {
     return (
-        <div className="max-h-screen">
-            <Route path="/" element={<Projects />} />
-            <Route path="/work" element={<Work />} />
-            <Route path="/about" element={<About />} />
-        </div>
+        <BrowserRouter>
+            <Routes>
+                <Route path="/" element={<Projects />}>
+                    <Route path="work" element={<Work />} />
+                    <Route path="about" element={<About />} />
+                </Route>
+            </Routes>
+        </BrowserRouter>
+
     )
 }
 

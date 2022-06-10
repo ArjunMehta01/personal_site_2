@@ -1,6 +1,6 @@
 import React from "react";
 import tw from "tailwind-styled-components";
-import { useNavigate } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 const NavContainer = tw.div`
     flex
@@ -17,8 +17,8 @@ const Name = tw.p`
 const Navbar = () => {
     return (
         <NavContainer>
-            <Name>Projects</Name>
-            <Name>About Me</Name>
+            <Name><NavLink to="/">Projects</NavLink></Name>
+            <Name><NavLink to="/about">About Me</NavLink></Name>
             <Name>Work</Name>
             <Name>Resume</Name>
             <Name>Summary</Name>
