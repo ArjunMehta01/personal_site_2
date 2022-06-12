@@ -5,6 +5,7 @@ import "../dist/output.css";
 import Projects from "./pages/Projects";
 import Work from "./pages/Work";
 import About from "./pages/About";
+import Navbar from "./components/Navbar";
 
 
 import { 
@@ -12,26 +13,20 @@ import {
     Route,
     Routes, 
     Link, 
-    Redirect,
+    Redirect
 } from "react-router-dom";
 
-const Helo = tw.div`
-    bg-red-800
-    h-screen
-`;
-
 const App = () => {
-    return (
+    return (   
         <BrowserRouter>
             <Routes>
-                <Route path="/" element={<Projects />}>
-                    <Route path="work" element={<Work />} />
-                    <Route path="about" element={<About />} />
-                </Route>
+                <Route path="/" element={<Projects />} />
+                <Route path="/work" element={<Work />} />
+                <Route path="/about" element={<About />} />
             </Routes>
         </BrowserRouter>
 
-    )
+    );S
 }
 
 export default App;

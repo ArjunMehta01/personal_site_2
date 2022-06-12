@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "css": "npx tailwindcss -i ./src/input.css -o ./dist/output.css",
-    "start": "npm run css; webpack serve  --hot --open",
+    "start": "npm run css; webpack server  --hot --open",
     "build": "webpack --config webpack.config.js --mode production"
   },
   "repository": {
