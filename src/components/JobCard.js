@@ -5,11 +5,11 @@ import { useNavigate } from "react-router-dom";
 const JCard = tw.div`
     grid
     grid-cols-1
-    grid-rows-3
+    grid-rows-5
     rounded-lg
     w-[32rem]
     m-8
-    h-52
+    h-60
     max-w-[50%]
     bg-yellow-400
     shadow-md
@@ -21,28 +21,35 @@ const Info = tw.div`
     rounded-b-lg
 `;
 
-const Header = tw.div`
+const HeaderContainer = tw.div`
     row-span-2
     rounded-t-lg
 `;
 
+const BigHeader = tw.h1`
+    text-3xl
+`;
+
+const SmallHeader = tw.h2`
+    text-2xl
+`;
 
 // row for header row for info
 
 const JobCard = (props) => {
     return(
         <JCard>
-            <Header>
-                <h1 className="text-3xl">
+            <HeaderContainer>
+                <BigHeader>
                     <b>{props.role}</b>
-                </h1>
-                <h2 className="text-2xl">
+                </BigHeader>
+                <SmallHeader>
                     <b>{props.org}</b>
-                </h2>
+                </SmallHeader>
                 <p>
                     {props.date}
                 </p>
-            </Header>
+            </HeaderContainer>
             <Info>
                 <p>
                     {props.children}

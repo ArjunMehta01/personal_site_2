@@ -22,7 +22,7 @@ const About = (props) => {
                     </h1>
                     <p>
                         I'm a fourth year software engineering student at the University of Alberta. I'm interested in web development and data analysis
-                        but I'm also exploring firmware and embedded systems. I'm passionate about making a difference through technology and entr__ship. When I'm not studying or working on my latest project
+                        but I'm also exploring artificial intelligence. I'm passionate about making a difference through technology and entr__ship. When I'm not studying or working on my latest project
                         you can find me in the gym or watching the Toronto Raptors. I'd love to connect yada yada yada some bullshit.
                     </p>
                 </div>

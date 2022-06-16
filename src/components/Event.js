@@ -1,21 +1,21 @@
 import React from "react";
 import tw from "tailwind-styled-components";
 
-
 const EventContainer = tw.div`
     py-4
-    bg-emerald-700
 `;
 
+const Header = tw.p`
+    text-xl
+`;
 
 const Event = (props) => {
 
-
     return (
         <EventContainer>
-            <p className="text-xl">
-                {props.name}
-            </p>
+            <Header>
+                <b>{props.name}</b>
+            </Header>
             <p>
                 {props.children}
             </p>

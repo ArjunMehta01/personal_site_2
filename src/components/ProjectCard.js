@@ -1,19 +1,19 @@
 import React from "react";
 import tw from "tailwind-styled-components";
-import { useNavigate } from "react-router-dom";
+
 // TODO: change max for h to sensible val
 const PCard = tw.div`
     grid
     grid-cols-5
     grid-rows-2
     rounded-lg
-    w-[36rem]
-    min-w-[36rem]
+    w-[38rem]
     m-8
-    h-52
+    pl-1
+    h-72
     max-w-[50%]
-    bg-purple-900
     shadow-md
+    bg-slate-200
     hover: 
 `;
 
@@ -21,13 +21,17 @@ const Tag = tw.div`
     flex
     bg-slate-300
     justify-center
+    items-center
     align-middle
     rounded-md
     border-1
     border-black
-    h-6
+    text-center
+    w-20
+    h-10
     mx-1
-    my-2
+    mb-2
+    text-sm
 `;
 
 const ImageHolder = tw.div`
@@ -42,31 +46,42 @@ const ImageHolder = tw.div`
 const TagHolder = tw.div`
     flex
     flex-row
+    flex-wrap
     justify-items-start
     items-end
-    bg-red-500
     align-baseline
     col-start-1
     col-end-4
     row-start-2
     row-end-3
 `;
+const Title = tw.h1`
+    text-3xl
+`;
+
+const TextContainer = tw.div`
+    col-start-1
+    col-end-4
+    row-start-1
+    row-end-2
+    w-[95%]
+`;
 
 const ProjectCard = (props) => {
     return (
             <PCard>
-                <div className="col-start-1 col-end-4 row-start-1 row-end-2">
-                    <h1>{props.title}</h1>
-                    <p>{props.description}</p>
-                </div>
+                <TextContainer>
+                    <Title><b>{props.title}</b></Title>
+                    <p>{props.children}</p>
+                </TextContainer>
                 <TagHolder>
-                    {/* align tags at bottom of page but add some padding below */}
                     {props.tags.map((lang) => {
                         return <Tag key={lang}>{lang}</Tag>
                     })}
                 </TagHolder>
                 <ImageHolder />
-            </PCard>);
+            </PCard>       
+        );
 
 };
 
