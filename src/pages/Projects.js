@@ -1,5 +1,6 @@
 import React from "react";
 import tw from "tailwind-styled-components";
+import MainContainer from "../components/MainContainer";
 import Navbar from "../components/Navbar";
 import ProjectCard from "../components/ProjectCard";
 
@@ -39,7 +40,7 @@ const kuquatDesc = "Kumquat is an NFT creation sandbox designed to allow users t
 
 const personalV1Desc = "The first version of my personal site was designed as a portfolio for my technical work.";
 
-const dijkstraDesc = "";
+const dijkstraDesc = "The Dijkstra Route Finder was a school project for CMPUT275. We implemented the Dijkstra pathfinding algorithm and socket communication to mimic a GPS application for Edmonton roadways.";
 
 // maybe no
 const stonksDesc = "";
@@ -55,8 +56,9 @@ const breadDesc = "LetsGetThisBread.com was a web application created using the 
 
 const Projects = () => {
     return (
-        <div>
-            <Navbar />
+        <>
+        <Navbar />
+        <MainContainer>
             <div className="flex flex-row flex-wrap justify-center">
                 <FunContainer />
                 <BigTextContainer>
@@ -69,7 +71,9 @@ const Projects = () => {
                 <ProjectCard title="basketball_analysis" tags={["Python", "Beautiful Soup", "Pandas"]}>{basketballDesc}</ProjectCard>
                 <ProjectCard title="LetsGetThisBread.com" tags={["React.js", "Python", "Beautiful Soup"]}>{breadDesc}</ProjectCard>
             </div> 
-        </div>   
+            {/* add footer or for connecting */}
+        </MainContainer>   
+        </>
     )
 }
 

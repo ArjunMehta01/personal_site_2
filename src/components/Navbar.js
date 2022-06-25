@@ -4,11 +4,11 @@ import { Link } from "react-router-dom";
 
 const NavContainer = tw.div`
     flex
-    w-screen
     bg-emerald-300
     flex-row
     rounded-b-lg
-    w-max-full
+    w-max-[100vw]
+    w-full
 `;
 
 const Name = tw.p`

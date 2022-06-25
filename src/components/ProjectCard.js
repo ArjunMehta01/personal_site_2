@@ -14,7 +14,6 @@ const PCard = tw.div`
     max-w-[50%]
     shadow-md
     bg-slate-200
-    hover: 
 `;
 
 const Tag = tw.div`
