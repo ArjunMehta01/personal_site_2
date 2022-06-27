@@ -11,6 +11,15 @@ const ImageContainer = tw.div`
     bg-fuchsia-800
 `;
 
+const PText = tw.p`
+    pb-4
+`;
+
+const HText = tw.h1`
+    text-5xl
+    py-4
+`;
+
 const About = (props) => {
 
     return (
@@ -19,26 +28,27 @@ const About = (props) => {
             <MainContainer>
                 <div className="flex flex-row items-center justify-center p-2">
                     <div className="w-[32rem]">
-                        <h1 className="text-6xl p-4">
-                            Hi my name is Arjun Mehta.
-                        </h1>
-                        <p>
+                        <HText>
+                            Hi my name is <b>Arjun Mehta</b>
+                        </HText>
+                        <PText>
                             I'm a fourth year software engineering student at the University of Alberta. I'm interested in web development and data analysis
                             but I'm also exploring artificial intelligence. I'm passionate about making a difference through technology and entrepreneurship. When I'm not studying or working on my latest project
                             you can find me in the gym or watching the Toronto Raptors.
-                        </p>
+                        </PText>
                     </div>
                     <ImageContainer/>
                 </div>
                 <div className="flex flex-row items-center justify-center p-2">
                     <ImageContainer/>
                     <div className="w-[30rem] m-10">
-                        <h1 className="text-6xl p-4">
+                        <HText>
                             What's Cookin'
-                        </h1>
-                        <p>
-                            Outside of professional development, ....
-                        </p>
+                        </HText>
+                        <PText>
+                            Outside of professional development, I've been exploring the city of Edmonton and enjoying the Alberta Summer.
+                            There are a lot of different areas to explore and the weather won't stay warm forever!
+                        </PText>
                     </div>
                 </div>
             </MainContainer>
