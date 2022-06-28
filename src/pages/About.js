@@ -2,13 +2,16 @@ import React from "react";
 import tw from "tailwind-styled-components";
 import Navbar from "../components/Navbar";
 import MainContainer from "../components/MainContainer";
-
+import Me from "../assets/me.jpg";
+import Sylvan from "../assets/Sylvan.jpg";
 
 const ImageContainer = tw.div`
-    w-[500px]
-    h-[500px]
+    max-h-[500px]
+    h-auto
+    overflow-hidden
     rounded-lg
-    bg-fuchsia-800
+    border-2
+    relative
 `;
 
 const PText = tw.p`
@@ -37,10 +40,12 @@ const About = (props) => {
                             you can find me in the gym or watching the Toronto Raptors.
                         </PText>
                     </div>
-                    <ImageContainer/>
+                    <ImageContainer>
+                        <img src={Me} className="w-[32rem] top-[-100px] relative"/>
+                    </ImageContainer>
                 </div>
                 <div className="flex flex-row items-center justify-center p-2">
-                    <ImageContainer/>
+                    <ImageContainer><img src={Sylvan} className="w-[600px] relative"/></ImageContainer>
                     <div className="w-[30rem] m-10">
                         <HText>
                             What's Cookin'
