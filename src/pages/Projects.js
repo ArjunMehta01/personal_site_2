@@ -60,10 +60,10 @@ const Projects = () => {
         <Navbar />
         <MainContainer>
             <div className="flex flex-row flex-wrap justify-center">
-                <FunContainer />
+                {/* <FunContainer />
                 <BigTextContainer>
                     <SpecialText>Hi I'm Arjun. I go to the <span className="text-green-700">University of Alberta</span> and study <span className="text-yellow-300">Software Engineering.</span></SpecialText>
-                </BigTextContainer>
+                </BigTextContainer> */}
                 <ProjectCard title="This Site" tags={["React.js", "react router", "tailwind css", "styled components", "Figma"]}>{personalV2Desc}</ProjectCard>
                 <ProjectCard title="Kumquat NFT Sandbox" tags={["Hedera", "Node.js","React.js", "Heroku"]}>{kuquatDesc}</ProjectCard>
                 <ProjectCard title="Personal Site V1" tags={["React.js", "Firebase"]}>{personalV1Desc}</ProjectCard>

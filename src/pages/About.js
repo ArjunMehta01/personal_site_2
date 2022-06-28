@@ -30,7 +30,7 @@ const About = (props) => {
             <Navbar />
             <MainContainer>
                 <div className="flex flex-row items-center justify-center p-2">
-                    <div className="w-[32rem]">
+                    <div className="w-[32rem] m-4">
                         <HText>
                             Hi my name is <b>Arjun Mehta</b>
                         </HText>
@@ -46,7 +46,7 @@ const About = (props) => {
                 </div>
                 <div className="flex flex-row items-center justify-center p-2">
                     <ImageContainer><img src={Sylvan} className="w-[600px] relative"/></ImageContainer>
-                    <div className="w-[30rem] m-10">
+                    <div className="w-[32rem] m-4">
                         <HText>
                             What's Cookin'
                         </HText>

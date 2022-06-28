@@ -13,7 +13,8 @@ const PCard = tw.div`
     h-72
     max-w-[50%]
     shadow-md
-    bg-slate-200
+    bg-[#88BBE7]
+    
 `;
 
 const Tag = tw.div`
@@ -38,7 +39,7 @@ const ImageHolder = tw.div`
     col-span-2
     row-start-1
     row-end-3
-    bg-green-400
+    bg-slate-200
     rounded-r-lg
 `;
 

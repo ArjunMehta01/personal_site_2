@@ -4,7 +4,8 @@ import { Link } from "react-router-dom";
 
 const NavContainer = tw.div`
     flex
-    bg-emerald-300
+    bg-[#0B3C49]
+    text-white
     flex-row
     rounded-b-lg
     w-max-[100vw]
@@ -21,8 +22,8 @@ const Navbar = () => {
             <Name><Link to="/">Projects</Link></Name>
             <Name><Link to="/about">About Me</Link></Name>
             <Name><Link to="/work">Work</Link></Name>
-            <Name>Resume</Name>
-            <Name>Summary</Name>
+            {/* <Name>Resume</Name>
+            <Name>Summary</Name> */}
         </NavContainer>
     );
 }

@@ -11,7 +11,7 @@ const JCard = tw.div`
     m-8
     h-60
     max-w-[50%]
-    bg-yellow-400
+    bg-[#E6C79C]
     shadow-md
     px-2
 `;

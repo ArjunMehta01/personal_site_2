@@ -2,17 +2,19 @@ const HtmlWebpackPlugin = require("html-webpack-plugin");
 const path = require("path");
 
 module.exports = {
-    mode: 'development',
+  mode: 'development',
   entry: "./src/index.js",
   output: {
     filename: "main.js",
     path: path.resolve(__dirname, "dist"),
+    publicPath: '/'
   },
   plugins: [
     new HtmlWebpackPlugin({
       template: "./src/index.html",
     }),
   ],
+  
   
   resolve: {
     modules: [__dirname, "src", "node_modules"],
@@ -39,5 +41,8 @@ module.exports = {
         use: ["file-loader"],
       }, 
     ],
+  },
+  devServer: {
+    historyApiFallback: true,
   },
 };
