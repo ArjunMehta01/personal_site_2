@@ -1,6 +1,6 @@
 import React from "react";
 import tw from "tailwind-styled-components";
-import "../dist/output.css";
+import "./output.css"
 
 import Projects from "./pages/Projects";
 import Work from "./pages/Work";
