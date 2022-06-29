@@ -554,6 +554,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   display: grid;
 }
 
+.h-28 {
+  height: 7rem;
+}
+
 .h-60 {
   height: 15rem;
 }
@@ -582,12 +586,12 @@ Ensure the default browser behavior of the `hidden` attribute.
   max-height: 500px;
 }
 
-.w-\[32rem\] {
-  width: 32rem;
-}
-
 .w-full {
   width: 100%;
+}
+
+.w-\[32rem\] {
+  width: 32rem;
 }
 
 .w-\[38rem\] {
@@ -706,6 +710,11 @@ Ensure the default browser behavior of the `hidden` attribute.
   border-color: rgb(0 0 0 / var(--tw-border-opacity));
 }
 
+.bg-\[\#0B3C49\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(11 60 73 / var(--tw-bg-opacity));
+}
+
 .bg-\[\#E6C79C\] {
   --tw-bg-opacity: 1;
   background-color: rgb(230 199 156 / var(--tw-bg-opacity));
@@ -714,11 +723,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 .bg-\[\#F5F5F5\] {
   --tw-bg-opacity: 1;
   background-color: rgb(245 245 245 / var(--tw-bg-opacity));
-}
-
-.bg-\[\#0B3C49\] {
-  --tw-bg-opacity: 1;
-  background-color: rgb(11 60 73 / var(--tw-bg-opacity));
 }
 
 .bg-\[\#88BBE7\] {
@@ -789,14 +793,14 @@ Ensure the default browser behavior of the `hidden` attribute.
   line-height: 1.75rem;
 }
 
-.text-3xl {
-  font-size: 1.875rem;
-  line-height: 2.25rem;
-}
-
 .text-2xl {
   font-size: 1.5rem;
   line-height: 2rem;
+}
+
+.text-3xl {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
 }
 
 .text-sm {

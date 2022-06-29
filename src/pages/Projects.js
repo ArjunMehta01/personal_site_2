@@ -64,7 +64,7 @@ const Projects = () => {
                 <BigTextContainer>
                     <SpecialText>Hi I'm Arjun. I go to the <span className="text-green-700">University of Alberta</span> and study <span className="text-yellow-300">Software Engineering.</span></SpecialText>
                 </BigTextContainer> */}
-                <ProjectCard title="This Site" tags={["React.js", "react router", "tailwind css", "styled components", "Figma"]}>{personalV2Desc}</ProjectCard>
+                <ProjectCard title="This Site" tags={["React.js", "react router", "tailwind css", "styled components", "Figma", "Firebase"]}>{personalV2Desc}</ProjectCard>
                 <ProjectCard title="Kumquat NFT Sandbox" tags={["Hedera", "Node.js","React.js", "Heroku"]}>{kuquatDesc}</ProjectCard>
                 <ProjectCard title="Personal Site V1" tags={["React.js", "Firebase"]}>{personalV1Desc}</ProjectCard>
                 <ProjectCard title="Dijkstra route finder" tags={["C++", "Serial Comm."]}>{dijkstraDesc}</ProjectCard>

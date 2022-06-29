@@ -19,8 +19,8 @@ const Name = tw.p`
 const Navbar = () => {
     return (
         <NavContainer>
-            <Name><Link to="/">Projects</Link></Name>
-            <Name><Link to="/about">About Me</Link></Name>
+            <Name><Link to="/">About Me</Link></Name>
+            <Name><Link to="/projects">Projects</Link></Name>
             <Name><Link to="/work">Work</Link></Name>
             {/* <Name>Resume</Name>
             <Name>Summary</Name> */}

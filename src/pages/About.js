@@ -2,6 +2,7 @@ import React from "react";
 import tw from "tailwind-styled-components";
 import Navbar from "../components/Navbar";
 import MainContainer from "../components/MainContainer";
+import Footer from "../components/Footer";
 import Me from "../assets/me.jpg";
 import Sylvan from "../assets/Sylvan.jpg";
 
@@ -56,6 +57,7 @@ const About = (props) => {
                         </PText>
                     </div>
                 </div>
+                <Footer />
             </MainContainer>
         </>
     );
