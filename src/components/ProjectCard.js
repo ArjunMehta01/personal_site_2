@@ -4,16 +4,17 @@ import tw from "tailwind-styled-components";
 // TODO: change max for h to sensible val
 const PCard = tw.div`
     grid
-    grid-cols-5
-    grid-rows-2
+    grid-cols-6
+    grid-rows-3
     rounded-lg
-    w-[38rem]
+    w-[33.5rem]
     m-8
     pl-1
-    h-72
+    h-80
     max-w-[50%]
     shadow-md
     bg-[#88BBE7]
+    sm:h-auto
     
 `;
 
@@ -35,10 +36,10 @@ const Tag = tw.div`
 `;
 
 const ImageHolder = tw.div`
-    col-start-4
+    col-start-5
     col-span-2
     row-start-1
-    row-end-3
+    row-end-4
     bg-slate-200
     rounded-r-lg
 `;
@@ -51,19 +52,21 @@ const TagHolder = tw.div`
     items-end
     align-baseline
     col-start-1
-    col-end-4
-    row-start-2
-    row-end-3
+    col-end-5
+    row-start-3
+    row-end-4
 `;
 const Title = tw.h1`
+    w-[95%]
     text-3xl
 `;
 
 const TextContainer = tw.div`
+    pt-1
     col-start-1
-    col-end-4
+    col-end-5
     row-start-1
-    row-end-2
+    row-end-3
     w-[95%]
 `;
 

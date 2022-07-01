@@ -14,6 +14,7 @@ const JCard = tw.div`
     bg-[#E6C79C]
     shadow-md
     px-2
+    sm:h-auto
 `;
 
 const Info = tw.div`

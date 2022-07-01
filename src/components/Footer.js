@@ -24,6 +24,8 @@ const Anchor = tw.a`
     float-right
     inline-block
     pr-6
+    hover:delay-750
+    hover:text-[#E6C79C]
 `;
 
 const Footer = () => {
