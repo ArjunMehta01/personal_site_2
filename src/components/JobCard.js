@@ -10,11 +10,9 @@ const JCard = tw.div`
     w-[32rem]
     m-8
     h-60
-    max-w-[50%]
     bg-[#E6C79C]
     shadow-md
     px-2
-    sm:h-auto
 `;
 
 const Info = tw.div`
