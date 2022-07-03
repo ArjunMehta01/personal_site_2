@@ -5,7 +5,6 @@ import JobCard from "../components/JobCard";
 import Event from "../components/Event";
 import MainContainer from "../components/MainContainer";
 
-
 const AccompsHeader = tw.div`
     w-44
     text-wrap
@@ -15,10 +14,16 @@ const AccompsHeader = tw.div`
 const Accomps = tw.div`
     grid
     grid-cols-2
+    border-t-2
 `;
 
 const AccompsContainer = tw.div`
     px-6
+    rounded-lg
+    m-8
+    shadow-md
+    bg-[#DCDCDC]
+    py-2
 `;
 
 const Year = tw.h1`
@@ -61,7 +66,7 @@ const Work = () => {
                             <b>Events & Accomplishments</b>
                         </h1>
                     </AccompsHeader>
-                    <Accomps>
+                    <Accomps className="border-t-0">
                             <div className=" h-full flex justify-center items-center">
                                 <Year className="text-5xl">2022</Year>
                             </div>
@@ -77,6 +82,33 @@ const Work = () => {
                                 </Event>
                                 <Event name="Hack Ed 2022">
                                     Submitted the Kumquat NFT sandbox
+                                </Event>
+                            </div>
+                    </Accomps>
+                    <Accomps>
+                            <div className=" h-full flex justify-center items-center">
+                                <Year className="text-5xl">2021</Year>
+                            </div>
+                            <div>
+                                <Event name="Joined U of A Computer Engineering Club">
+                                    Did stuff
+                                </Event>
+                                <Event name="Hack Ed 2021">
+                                    Did stuff
+                                </Event>
+                            </div>
+                            {/* what else do */}
+                    </Accomps>
+                    <Accomps>
+                            <div className=" h-full flex justify-center items-center">
+                                <Year className="text-5xl">2020</Year>
+                            </div>
+                            <div>
+                                <Event name="Hack Ed Beta 2020">
+                                    Won
+                                </Event>
+                                <Event name="Other Hackathon??">
+                                    Won
                                 </Event>
                             </div>
                     </Accomps>
