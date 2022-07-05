@@ -90,11 +90,9 @@ const Work = () => {
                                 <Year className="text-5xl">2021</Year>
                             </div>
                             <div>
-                                <Event name="Joined U of A Computer Engineering Club">
-                                    Did stuff
-                                </Event>
+                                <Event name="Joined U of A Computer Engineering Club"></Event>
                                 <Event name="Hack Ed 2021">
-                                    Did stuff
+                                    Submitted the Stonks Web App
                                 </Event>
                             </div>
                             {/* what else do */}
@@ -105,10 +103,7 @@ const Work = () => {
                             </div>
                             <div>
                                 <Event name="Hack Ed Beta 2020">
-                                    Won
-                                </Event>
-                                <Event name="Other Hackathon??">
-                                    Won
+                                    Submitted, won, and published the basketball_analysis pip package.
                                 </Event>
                             </div>
                     </Accomps>
