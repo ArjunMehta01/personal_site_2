@@ -4,7 +4,7 @@ import Navbar from "../../components/Navbar";
 
 
 // future this is where you build generic project page
-const projectPage = () => {
+const thisSite = () => {
 
 
     return (
@@ -14,4 +14,4 @@ const projectPage = () => {
     );
 };
 
-export default projectPage;
+export default thisSite;

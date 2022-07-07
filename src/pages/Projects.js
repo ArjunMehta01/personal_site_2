@@ -57,7 +57,7 @@ const breadDesc = "LetsGetThisBread.com was a web application created using the 
 const Projects = () => {
     return (
         <>
-        <Navbar />
+        <Navbar current="projects"/>
         <MainContainer>
             <div className="flex flex-row flex-wrap justify-center">
                 {/* <FunContainer />

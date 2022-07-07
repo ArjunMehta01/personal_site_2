@@ -45,7 +45,7 @@ const Work = () => {
 
     return (
         <>
-            <Navbar />
+            <Navbar current="work"/>
             <MainContainer>
                 <div className="flex flex-row flex-wrap justify-center">
                     <JobCard role="Software Development Intern" org="PulseMedica" date="Jan. 2022 - Present">

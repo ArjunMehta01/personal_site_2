@@ -28,7 +28,7 @@ const About = (props) => {
 
     return (
         <>
-            <Navbar />
+            <Navbar current="about"/>
             <MainContainer>
                 <div className="flex flex-row items-center justify-center p-2">
                     <div className="w-[32rem] m-4">
