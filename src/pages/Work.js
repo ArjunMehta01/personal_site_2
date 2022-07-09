@@ -4,6 +4,7 @@ import Navbar from "../components/Navbar";
 import JobCard from "../components/JobCard";
 import Event from "../components/Event";
 import MainContainer from "../components/MainContainer";
+import Footer from "../components/Footer";
 
 const AccompsHeader = tw.div`
     w-44
@@ -78,7 +79,7 @@ const Work = () => {
                                         Participated in the CCPC. Solved problem D the overall solve solve / try rate was 20%
                                 </Event>
                                 <Event name="Enactus Ultimate Pitch Competition">
-                                    Won first place and a $3000 cash prize at the University of Alberta Enactus Ultimate Pitch Contest.
+                                    Won first place and a $3000 cash prize at the University of Alberta Enactus Ultimate Pitch Contest
                                 </Event>
                                 <Event name="Hack Ed 2022">
                                     Submitted the Kumquat NFT sandbox
@@ -103,11 +104,15 @@ const Work = () => {
                             </div>
                             <div>
                                 <Event name="Hack Ed Beta 2020">
-                                    Submitted, won, and published the basketball_analysis pip package.
+                                    Submitted, won, and published the basketball_analysis pip package
+                                </Event>
+                                <Event name="Bon Hackétit 2020">
+                                    Submitted LetsGetThisBread.Com
                                 </Event>
                             </div>
                     </Accomps>
                 </AccompsContainer>
+                <Footer />
             </MainContainer>
         </>
     );

@@ -1,5 +1,6 @@
 import React from "react";
 import tw from "tailwind-styled-components";
+import Footer from "../components/Footer";
 import MainContainer from "../components/MainContainer";
 import Navbar from "../components/Navbar";
 import ProjectCard from "../components/ProjectCard";
@@ -72,7 +73,8 @@ const Projects = () => {
                 <ProjectCard title="LetsGetThisBread.com" tags={["React.js", "Python", "Beautiful Soup"]}>{breadDesc}</ProjectCard>
             </div> 
             {/* add footer or for connecting */}
-        </MainContainer>   
+            <Footer />
+        </MainContainer> 
         </>
     )
 }
