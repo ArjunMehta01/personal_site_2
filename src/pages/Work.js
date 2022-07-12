@@ -15,15 +15,12 @@ const AccompsHeader = tw.div`
 const Accomps = tw.div`
     grid
     grid-cols-2
-    border-t-2
+    py-12
 `;
 
 const AccompsContainer = tw.div`
     px-6
-    rounded-lg
     m-8
-    shadow-md
-    bg-[#DCDCDC]
     py-2
 `;
 
@@ -67,7 +64,7 @@ const Work = () => {
                             <b>Events & Accomplishments</b>
                         </h1>
                     </AccompsHeader>
-                    <Accomps className="border-t-0">
+                    <Accomps>
                             <div className=" h-full flex justify-center items-center">
                                 <Year className="text-5xl">2022</Year>
                             </div>
@@ -98,7 +95,7 @@ const Work = () => {
                             </div>
                             {/* what else do */}
                     </Accomps>
-                    <Accomps>
+                    <Accomps className="pb-0">
                             <div className=" h-full flex justify-center items-center">
                                 <Year className="text-5xl">2020</Year>
                             </div>

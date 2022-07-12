@@ -4,18 +4,18 @@ import tw from "tailwind-styled-components";
 // TODO: change max for h to sensible val
 const PCard = tw.div`
     grid
-    grid-cols-6
     grid-rows-3
     rounded-lg
     w-[33.5rem]
+    md:w-[33.5rem]
     m-8
     pl-1
-    h-80
+    md:h-72
     max-w-[50%]
     shadow-md
-    bg-[#88BBE7]
+    bg-[#e8e8e8]
     sm:h-auto
-    
+    sm:w-auto
 `;
 
 const Tag = tw.div`
@@ -28,11 +28,12 @@ const Tag = tw.div`
     border-1
     border-black
     text-center
-    w-20
+    w-[6rem]
     h-10
     mx-1
     mb-2
     text-sm
+    font-bold
 `;
 
 const ImageHolder = tw.div`
@@ -58,16 +59,15 @@ const TagHolder = tw.div`
 `;
 const Title = tw.h1`
     w-[95%]
-    text-3xl
+    text-4xl
 `;
 
 const TextContainer = tw.div`
     pt-1
-    col-start-1
-    col-end-5
     row-start-1
     row-end-3
     w-[95%]
+    text-lg
 `;
 
 const ProjectCard = (props) => {
@@ -82,7 +82,7 @@ const ProjectCard = (props) => {
                         return <Tag key={lang}>{lang}</Tag>
                     })}
                 </TagHolder>
-                <ImageHolder />
+                {/* <ImageHolder /> */}
             </PCard>       
         );
 

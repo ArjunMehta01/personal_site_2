@@ -4,24 +4,28 @@ import { useNavigate } from "react-router-dom";
 
 const JCard = tw.div`
     grid
-    grid-cols-1
-    grid-rows-5
+    grid-rows-2
     rounded-lg
-    w-[32rem]
+    w-[33.5rem]
+    md:w-[33.5rem]
     m-8
-    h-60
-    bg-[#E6C79C]
+    pl-1
+    md:h-72
+    max-w-[50%]
     shadow-md
-    px-2
+    bg-[#e8e8e8]
+    sm:h-auto
+    sm:w-auto
 `;
 
 const Info = tw.div`
     row-span-1
     rounded-b-lg
+    align-top
 `;
 
 const HeaderContainer = tw.div`
-    row-span-2
+    row-span-1
     rounded-t-lg
 `;
 
@@ -31,6 +35,7 @@ const BigHeader = tw.h1`
 
 const SmallHeader = tw.h2`
     text-2xl
+    text-[#1ca9c9] // new color
 `;
 
 // row for header row for info

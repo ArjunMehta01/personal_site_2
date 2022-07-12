@@ -6,12 +6,12 @@ import Pdf from '../assets/ArjunResume.pdf';
 
 const NavContainer = tw.div`
     flex
-    bg-[#0B3C49]
-    text-white
+    text-black
     flex-row
     rounded-b-lg
     w-max-[100vw]
     w-full
+    text-xl
 `;
 
 const Name = tw.p`
@@ -21,7 +21,7 @@ const Name = tw.p`
 `;
 
 const Navbar = (props) => {
-    const currentStyle = "text-[#E6C79C] font-bold";
+    const currentStyle = "text-[#1ca9c9] font-bold";
 
 
     return (

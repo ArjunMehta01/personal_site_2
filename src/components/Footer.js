@@ -2,8 +2,6 @@ import React from "react";
 import tw from "tailwind-styled-components";
 
 const FooterContainer = tw.div`
-    bg-[#0B3C49]
-    text-white
     w-max-[100vw]
     w-full
     h-28
@@ -13,6 +11,7 @@ const FooterContainer = tw.div`
 const FText = tw.p`
     p-2
     text-2xl
+    font-semibold
     float-left
     inline-block
     pl-6
@@ -21,11 +20,12 @@ const FText = tw.p`
 const Anchor = tw.a`
     p-2
     text-2xl
+    font-semibold
     float-right
     inline-block
     pr-6
     hover:delay-750
-    hover:text-[#E6C79C]
+    hover:underline
 `;
 
 const Footer = () => {
