@@ -72,7 +72,7 @@ const TextContainer = tw.div`
 
 const ProjectCard = (props) => {
     return (
-            <PCard>
+            <PCard onClick={props.onClick}>
                 <TextContainer>
                     <Title><b>{props.title}</b></Title>
                     <p>{props.children}</p>

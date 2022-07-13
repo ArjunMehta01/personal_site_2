@@ -538,6 +538,16 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-bottom: auto;
 }
 
+.my-0 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .mb-2 {
   margin-bottom: 0.5rem;
 }
@@ -624,6 +634,14 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .w-44 {
   width: 11rem;
+}
+
+.w-auto {
+  width: auto;
+}
+
+.w-\[75\%\] {
+  width: 75%;
 }
 
 .max-w-\[50\%\] {
@@ -764,6 +782,11 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-bottom: 0.5rem;
 }
 
+.py-6 {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
 .pl-6 {
   padding-left: 1.5rem;
 }
@@ -851,19 +874,14 @@ Ensure the default browser behavior of the `hidden` attribute.
   font-weight: 800;
 }
 
-.text-\[\#0B3C49\] {
+.text-\[\#1ca9c9\] {
   --tw-text-opacity: 1;
-  color: rgb(11 60 73 / var(--tw-text-opacity));
+  color: rgb(28 169 201 / var(--tw-text-opacity));
 }
 
 .text-black {
   --tw-text-opacity: 1;
   color: rgb(0 0 0 / var(--tw-text-opacity));
-}
-
-.text-\[\#1ca9c9\] {
-  --tw-text-opacity: 1;
-  color: rgb(28 169 201 / var(--tw-text-opacity));
 }
 
 .text-green-700 {

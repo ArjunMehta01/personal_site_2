@@ -5,7 +5,7 @@ import "./output.css"
 import Projects from "./pages/Projects";
 import Work from "./pages/Work";
 import About from "./pages/About";
-import Navbar from "./components/Navbar";
+import ThisSite from "./pages/cfgPages/ThisSite";
 
 // Import the functions you need from the SDKs you need
 import { initializeApp } from "firebase/app";
@@ -45,6 +45,10 @@ const App = () => {
                 <Route path="/" element={<About />} />
                 <Route path="/projects" element={<Projects />} />
                 <Route path="/work" element={<Work />} />
+
+
+                <Route path="/projects/thissite" element={<ThisSite />} />
+
             </Routes>
         </BrowserRouter>
 
