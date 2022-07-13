@@ -6,6 +6,7 @@ const FooterContainer = tw.div`
     w-full
     h-28
     py-8
+    self-end
 `;
 
 const FText = tw.p`
