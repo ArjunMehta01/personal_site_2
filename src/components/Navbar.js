@@ -16,7 +16,7 @@ const NavContainer = tw.div`
 
 const Name = tw.p`
     p-2
-    hover:delay-750
+    hover:delay-700
     hover:underline
 `;
 

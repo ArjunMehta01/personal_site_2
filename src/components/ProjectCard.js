@@ -16,6 +16,10 @@ const PCard = tw.div`
     bg-[#e8e8e8]
     sm:h-auto
     sm:w-auto
+    transition 
+    ease-in-out
+    delay-100
+    ${props => props.hoverable ? `hover:cursor-pointer hover:bg-[#d2f1f8]` : ``}
 `;
 
 const Tag = tw.div`
@@ -72,7 +76,7 @@ const TextContainer = tw.div`
 
 const ProjectCard = (props) => {
     return (
-            <PCard onClick={props.onClick}>
+            <PCard onClick={props.onClick} hoverable={props.hoverable}>
                 <TextContainer>
                     <Title><b>{props.title}</b></Title>
                     <p>{props.children}</p>

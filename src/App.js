@@ -6,6 +6,8 @@ import Projects from "./pages/Projects";
 import Work from "./pages/Work";
 import About from "./pages/About";
 import ThisSite from "./pages/cfgPages/ThisSite";
+import Kumquat from "./pages/cfgPages/Kumquat";
+import Site1 from "./pages/cfgPages/Site1";
 
 // Import the functions you need from the SDKs you need
 import { initializeApp } from "firebase/app";
@@ -48,6 +50,8 @@ const App = () => {
 
 
                 <Route path="/projects/thissite" element={<ThisSite />} />
+                <Route path="/projects/kumquat" element={<Kumquat />} />
+                <Route path="/projects/sitev1" element={<Site1 />} />
 
             </Routes>
         </BrowserRouter>

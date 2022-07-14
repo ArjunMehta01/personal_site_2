@@ -20,7 +20,7 @@ const PText = tw.p`
 `;
 
 const HText = tw.h1`
-    text-5xl
+    text-6xl
     py-4
 `;
 

@@ -69,9 +69,9 @@ const Projects = () => {
                 <BigTextContainer>
                     <SpecialText>Hi I'm Arjun. I go to the <span className="text-green-700">University of Alberta</span> and study <span className="text-yellow-300">Software Engineering.</span></SpecialText>
                 </BigTextContainer> */}
-                <ProjectCard title="This Site" tags={["React.js", "react router", "tailwind css", "styled components", "Figma", "Firebase"]} onClick={() => navigate("/projects/thissite")}>{personalV2Desc}</ProjectCard>
-                <ProjectCard title="Kumquat NFT Sandbox" tags={["Hedera", "Node.js","React.js", "Heroku"]}>{kuquatDesc}</ProjectCard>
-                <ProjectCard title="Personal Site V1" tags={["React.js", "Firebase"]}>{personalV1Desc}</ProjectCard>
+                <ProjectCard hoverable title="This Site" tags={["React.js", "react router", "tailwind css", "styled components", "Figma", "Firebase"]} onClick={() => navigate("/projects/thissite")}>{personalV2Desc}</ProjectCard>
+                <ProjectCard hoverable title="Kumquat NFT Sandbox" tags={["Hedera", "Node.js","React.js", "Heroku"]} onClick={() => navigate("/projects/kumquat")}>{kuquatDesc}</ProjectCard>
+                <ProjectCard hoverable title="Personal Site V1" tags={["React.js", "Firebase"]} onClick={() => navigate("/projects/sitev1")}>{personalV1Desc}</ProjectCard>
                 <ProjectCard title="Dijkstra route finder" tags={["C++", "Serial Comm."]}>{dijkstraDesc}</ProjectCard>
                 <ProjectCard title="basketball_analysis" tags={["Python", "Beautiful Soup", "Pandas"]}>{basketballDesc}</ProjectCard>
                 <ProjectCard title="LetsGetThisBread.com" tags={["React.js", "Python", "Beautiful Soup"]}>{breadDesc}</ProjectCard>
