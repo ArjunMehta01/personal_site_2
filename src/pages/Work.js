@@ -39,9 +39,9 @@ const Work = () => {
         window.open(url, '_blank', 'noopener,noreferrer');
       };
 
-    const PulseMedica = "Wrote software for two medical devices. Designed and programmed the UX as well as implemented laser, imaging, and FPGA functionalities on the C++ backend. Part of the firmware review team and implemented a test plan for Health Canada submission.";
+    const PulseMedica = "Wrote software for a medical device. Designed and programmed 3 separate interfaces. Implemented laser, imaging, and FPGA functionalities on the C++ backend. Implemented a test plan for Health Canada submission.";
 
-    const HWE = "Created a React web application aimed to provide insight into potential client's current methane emissions. The application collected over 26 data points and provided a weighted diagnostic on how well firms were reducing their emissions.";
+    const HWE = "Created a React web application aimed to provide insight into potential client's current methane emissions. The application collected over 25 data points and provided a weighted diagnostic on how well firms were reducing their emissions.";
 
     const Topl = "Implemented a Python wrapper package for communicating with the Topl blockchain network. The project was designed to be open sourced with the aims of providing key functionalities to future developer communities free of charge. The package was published to PyPI.";
 
