@@ -33,7 +33,7 @@ const About = (props) => {
                 <div className="flex flex-row items-center justify-center p-2">
                     <div className="w-[32rem] m-4">
                         <HText>
-                            Hi my name is <b>Arjun Mehta</b>
+                            Hi I'm <b>Arjun Mehta</b>
                         </HText>
                         <PText>
                             I'm a fourth year software engineering student at the University of Alberta. I'm interested in web development and data analysis
@@ -52,8 +52,7 @@ const About = (props) => {
                             What's Cookin'
                         </HText>
                         <PText>
-                            Outside of professional development, I've been exploring the city of Edmonton and enjoying the Alberta Summer.
-                            There are a lot of different areas to explore and the weather won't stay warm forever!
+                            Outside of professional development and side projects, I've been exploring the city of Edmonton and enjoying the Alberta summer (picture from Sylvan Lake, AB).
                         </PText>
                     </div>
                 </div>

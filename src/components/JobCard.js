@@ -16,6 +16,10 @@ const JCard = tw.div`
     bg-[#e8e8e8]
     sm:h-auto
     sm:w-auto
+    transition 
+    ease-in-out
+    delay-100
+    ${props => props.hoverable ? `hover:cursor-pointer hover:bg-[#d2f1f8]` : ``}
 `;
 
 const Info = tw.div`
@@ -42,7 +46,7 @@ const SmallHeader = tw.h2`
 
 const JobCard = (props) => {
     return(
-        <JCard>
+        <JCard hoverable={props.hoverable}>
             <HeaderContainer>
                 <BigHeader>
                     <b>{props.role}</b>

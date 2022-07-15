@@ -11,6 +11,10 @@ const Site1 = () => {
         <>
             <Navbar/>
             <MainContainer>
+                <HText className="font-bold">Portfolio Site Version 1</HText>
+                <PText className="font-bold hover:underline text-[#1ca9c9]">
+                    <a href="https://github.com/ArjunMehta01/personalsite" target="_blank">Project Repo</a>
+                </PText>
                 <HText>Problem</HText>
                 <PText>
                     Before my second co-op term started, I realized I had worked through enough courses and projects that I needed a portfolio to showcase my experiences. However, I had never created an application without design specifications. 

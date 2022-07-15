@@ -10,7 +10,7 @@ const PCard = tw.div`
     md:w-[33.5rem]
     m-8
     pl-1
-    md:h-72
+    md:h-80
     max-w-[50%]
     shadow-md
     bg-[#e8e8e8]

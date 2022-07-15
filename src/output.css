@@ -684,6 +684,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   justify-items: start;
 }
 
+.self-end {
+  align-self: flex-end;
+}
+
 .overflow-hidden {
   overflow: hidden;
 }
@@ -960,6 +964,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 @media (min-width: 768px) {
   .md\:h-72 {
     height: 18rem;
+  }
+
+  .md\:h-80 {
+    height: 20rem;
   }
 
   .md\:w-\[33\.5rem\] {

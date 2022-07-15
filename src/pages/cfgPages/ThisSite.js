@@ -14,6 +14,10 @@ const ThisSite = () => {
         <>
             <Navbar/>
             <MainContainer>
+                <HText className="font-bold">Portfolio Site (this website)</HText>
+                <PText className="font-bold hover:underline text-[#1ca9c9]">
+                    <a href="https://github.com/ArjunMehta01/personal_site_2" target="_blank">Project Repo</a>
+                </PText>
                 <HText>Problem</HText>
                 <PText>
                     After much deliberation, I realized my former portfolio site (v1) did not accurately present my past experiences. I knew I could build a better web application that allowed users to better interact with me and showcase my other personal projects. 

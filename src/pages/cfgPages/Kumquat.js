@@ -11,6 +11,10 @@ const Kumquat = () => {
         <>
             <Navbar/>
             <MainContainer>
+                <HText className="font-bold">Kumquat NFT Sandbox</HText>
+                <PText className="font-bold hover:underline text-[#1ca9c9]">
+                    <a href="https://github.com/ArjunMehta01/enozmuc" target="_blank">Project Repo</a>
+                </PText>
                 <HText>Problem</HText>
                 <PText>
                     The recent rise in blockchain based technologies has seen once technical terms become mainstage in the media. We identified several people within our lives who viewed blockchain with skepticism – mainly due to the recent NFT art media fiasco. The applications of NFTs go beyond artwork and could soon be used for activities such as signing documents. One day, possibly soon, they would be asked to trust blockchains without any understanding of how the technology worked.

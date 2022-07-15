@@ -59,6 +59,9 @@ const breadDesc = "LetsGetThisBread.com was a web application created using the 
 const Projects = () => {
     let navigate = useNavigate();
 
+    const openInNewTab = url => {
+        window.open(url, '_blank', 'noopener,noreferrer');
+      };
 
     return (
         <>
@@ -72,9 +75,9 @@ const Projects = () => {
                 <ProjectCard hoverable title="This Site" tags={["React.js", "react router", "tailwind css", "styled components", "Figma", "Firebase"]} onClick={() => navigate("/projects/thissite")}>{personalV2Desc}</ProjectCard>
                 <ProjectCard hoverable title="Kumquat NFT Sandbox" tags={["Hedera", "Node.js","React.js", "Heroku"]} onClick={() => navigate("/projects/kumquat")}>{kuquatDesc}</ProjectCard>
                 <ProjectCard hoverable title="Personal Site V1" tags={["React.js", "Firebase"]} onClick={() => navigate("/projects/sitev1")}>{personalV1Desc}</ProjectCard>
-                <ProjectCard title="Dijkstra route finder" tags={["C++", "Serial Comm."]}>{dijkstraDesc}</ProjectCard>
-                <ProjectCard title="basketball_analysis" tags={["Python", "Beautiful Soup", "Pandas"]}>{basketballDesc}</ProjectCard>
-                <ProjectCard title="LetsGetThisBread.com" tags={["React.js", "Python", "Beautiful Soup"]}>{breadDesc}</ProjectCard>
+                <ProjectCard hoverable title="Dijkstra route finder" tags={["C++", "Serial Comm."]} onClick={() => openInNewTab("https://github.com/ArjunMehta01/275assignment")}>{dijkstraDesc}</ProjectCard>
+                <ProjectCard hoverable title="basketball_analysis" tags={["Python", "Beautiful Soup", "Pandas"]} onClick={() => openInNewTab("https://github.com/ArjunMehta01/basketball_analysis")}>{basketballDesc}</ProjectCard>
+                <ProjectCard hoverable title="LetsGetThisBread.com" tags={["React.js", "Python", "Beautiful Soup"]} onClick={() => openInNewTab("https://github.com/ArjunMehta01/bread")}>{breadDesc}</ProjectCard>
             </div> 
             {/* add footer or for connecting */}
             <Footer />

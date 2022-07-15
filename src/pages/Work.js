@@ -35,6 +35,10 @@ const Year = tw.h1`
 // IDEA: gradients to job card
 const Work = () => {
 
+    const openInNewTab = url => {
+        window.open(url, '_blank', 'noopener,noreferrer');
+      };
+
     const PulseMedica = "Wrote software for two medical devices. Designed and programmed the UX as well as implemented laser, imaging, and FPGA functionalities on the C++ backend. Part of the firmware review team and implemented a test plan for Health Canada submission.";
 
     const HWE = "Created a React web application aimed to provide insight into potential client's current methane emissions. The application collected over 26 data points and provided a weighted diagnostic on how well firms were reducing their emissions.";
@@ -46,13 +50,13 @@ const Work = () => {
             <Navbar current="work"/>
             <MainContainer>
                 <div className="flex flex-row flex-wrap justify-center">
-                    <JobCard role="Software Development Intern" org="PulseMedica" date="Jan. 2022 - Present">
+                    <JobCard hoverable role="Software Development Intern" org="PulseMedica" date="Jan. 2022 - Present" onClick={() => openInNewTab("https://www.pulsemedica.com/")}>
                         {PulseMedica}
                     </JobCard>
-                    <JobCard role="Software Intern" org="Highwood Emissions Management" date="May 2021 - Aug. 2021">
+                    <JobCard hoverable role="Software Intern" org="Highwood Emissions Management" date="May 2021 - Aug. 2021" onClick={() => openInNewTab("https://highwoodemissions.com/")}>
                         {HWE}
                     </JobCard>
-                    <JobCard role="Engineering Intern" org="Topl" date="Apr. 2020 - Aug. 2021">
+                    <JobCard hoverable role="Engineering Intern" org="Topl" date="Apr. 2020 - Aug. 2021" onClick={() => openInNewTab("https://www.topl.co/")}>
                         {Topl}
                     </JobCard>
                 </div>
@@ -69,11 +73,11 @@ const Work = () => {
                                 <Year className="text-5xl">2022</Year>
                             </div>
                             <div>
-                                <Event name="Elected VP Social">
+                                <Event name="Elected VP Social of the Computer Engineering Club">
                                     Elected VP Social of the University of Alberta Computer Engineering Club
                                 </Event>
                                 <Event name="Calgary Collegiate Programming Competition">
-                                        Participated in the CCPC. Solved problem D the overall solve solve / try rate was 20%
+                                    Participated in the CCPC
                                 </Event>
                                 <Event name="Enactus Ultimate Pitch Competition">
                                     Won first place and a $3000 cash prize at the University of Alberta Enactus Ultimate Pitch Contest
@@ -101,7 +105,7 @@ const Work = () => {
                             </div>
                             <div>
                                 <Event name="Hack Ed Beta 2020">
-                                    Submitted, won, and published the basketball_analysis pip package
+                                    Won Hack Ed Beta 2020 with the basketball_analysis pip package
                                 </Event>
                                 <Event name="Bon Hackétit 2020">
                                     Submitted LetsGetThisBread.Com
