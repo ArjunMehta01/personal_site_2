@@ -36,7 +36,7 @@ const Footer = () => {
             <FText className="float-left inline-block pl-6">Designed and Coded by Me (Arjun) 😎</FText>
             <Anchor href="https://github.com/ArjunMehta01">Github</Anchor>
             <Anchor href="https://www.linkedin.com/in/arjunmehta01/">LinkedIn</Anchor>
-            <Anchor href="https://devpost.com/arjun-mehta1001">LinkedIn</Anchor>
+            <Anchor href="https://devpost.com/arjun-mehta1001">Devpost</Anchor>
         </FooterContainer>
     );
 }
