@@ -73,6 +73,9 @@ const Work = () => {
                                 <Year className="text-5xl">2022</Year>
                             </div>
                             <div>
+                                <Event name="Nathacks 2022">
+                                    Submitted the <em>Remember Me</em> app aimed to detect stress in patients suffering from Alzheimer’s Disease.
+                                </Event>
                                 <Event name="Elected VP Social of the Computer Engineering Club">
                                     Elected VP Social of the University of Alberta Computer Engineering Club
                                 </Event>
