@@ -4,7 +4,7 @@ import Navbar from "../components/Navbar";
 import MainContainer from "../components/MainContainer";
 import Footer from "../components/Footer";
 import Me from "../assets/me.jpg";
-import Sylvan from "../assets/Sylvan.jpg";
+import Elk from "../assets/elkIsland.jpg";
 
 const ImageContainer = tw.div`
     max-h-[500px]
@@ -46,13 +46,13 @@ const About = (props) => {
                     </ImageContainer>
                 </div>
                 <div className="flex flex-row items-center justify-center p-2">
-                    <ImageContainer><img src={Sylvan} className="w-[600px] relative"/></ImageContainer>
+                    <ImageContainer><img src={Elk} className="w-[600px] relative"/></ImageContainer>
                     <div className="w-[32rem] m-4">
                         <HText>
                             What's Cookin'
                         </HText>
                         <PText>
-                            Outside of professional development and side projects, I've been exploring the city of Edmonton and enjoying the Alberta summer (picture from Sylvan Lake, AB).
+                            Outside of starting my fourth year of university, I've been working on side projects and exploring the city of Edmonton. (picture from Elk Island National Park, AB).
                         </PText>
                     </div>
                 </div>
