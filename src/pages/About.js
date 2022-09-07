@@ -49,7 +49,7 @@ const About = (props) => {
                     <ImageContainer><img src={Elk} className="w-[600px] relative"/></ImageContainer>
                     <div className="w-[32rem] m-4">
                         <HText>
-                            What's Cookin'
+                            What's Cookin' 
                         </HText>
                         <PText>
                             Outside of starting my fourth year of university, I've been working on side projects and exploring the city of Edmonton. (picture from Elk Island National Park, AB).
