@@ -56,7 +56,7 @@ const Work = () => {
                     <JobCard hoverable role="Software Intern" org="Highwood Emissions Management" date="May 2021 - Aug. 2021" onClick={() => openInNewTab("https://highwoodemissions.com/")}>
                         {HWE}
                     </JobCard>
-                    <JobCard hoverable role="Engineering Intern" org="Topl" date="Apr. 2020 - Aug. 2021" onClick={() => openInNewTab("https://www.topl.co/")}>
+                    <JobCard hoverable role="Engineering Intern" org="Topl" date="Apr. 2020 - Aug. 2020" onClick={() => openInNewTab("https://www.topl.co/")}>
                         {Topl}
                     </JobCard>
                 </div>
