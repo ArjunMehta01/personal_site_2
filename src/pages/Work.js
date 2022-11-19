@@ -50,7 +50,7 @@ const Work = () => {
             <Navbar current="work"/>
             <MainContainer>
                 <div className="flex flex-row flex-wrap justify-center">
-                    <JobCard hoverable role="Software Development Intern" org="PulseMedica" date="Jan. 2022 - Present" onClick={() => openInNewTab("https://www.pulsemedica.com/")}>
+                    <JobCard hoverable role="Software Development Intern" org="PulseMedica" date="Jan. 2022 - Aug. 2022" onClick={() => openInNewTab("https://www.pulsemedica.com/")}>
                         {PulseMedica}
                     </JobCard>
                     <JobCard hoverable role="Software Intern" org="Highwood Emissions Management" date="May 2021 - Aug. 2021" onClick={() => openInNewTab("https://highwoodemissions.com/")}>
