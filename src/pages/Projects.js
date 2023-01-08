@@ -36,6 +36,8 @@ const SpecialText = tw.p`
     p-3
 `;
 
+const dietScoop = "A meal tracking android application designed for busy students looking to meal prep."
+
 const rememberMe = "An app providing a way to mediate stress through EEG data tracking and data-based recommendations."
 
 const personalV2Desc = "The second version of my personal site was designed to better showcase more than just my project portfolio.";
@@ -74,6 +76,7 @@ const Projects = () => {
                 <BigTextContainer>
                     <SpecialText>Hi I'm Arjun. I go to the <span className="text-green-700">University of Alberta</span> and study <span className="text-yellow-300">Software Engineering.</span></SpecialText>
                 </BigTextContainer> */}
+                <ProjectCard hoverable title="DietScoop" tags={["Android Studio", "Java", "Figma", "Firebase"]} onClick={() => openInNewTab("https://github.com/CMPUT301F22T19/DietScoop")}>{dietScoop}</ProjectCard>
                 <ProjectCard hoverable title="Remember Me" tags={["Python", "Bravo", "Heroku", "Node.js", "Figma"]} onClick={() => openInNewTab("https://devpost.com/software/remember-me-1zum9f?ref_content=my-projects-tab&ref_feature=my_projects")}>{rememberMe}</ProjectCard>
                 <ProjectCard hoverable title="This Site" tags={["React.js", "react router", "tailwind css", "styled components", "Figma", "Firebase"]} onClick={() => navigate("/projects/thissite")}>{personalV2Desc}</ProjectCard>
                 <ProjectCard hoverable title="Kumquat NFT Sandbox" tags={["Hedera", "Node.js","React.js", "Heroku"]} onClick={() => navigate("/projects/kumquat")}>{kuquatDesc}</ProjectCard>
