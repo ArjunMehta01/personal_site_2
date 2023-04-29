@@ -39,6 +39,8 @@ const Work = () => {
         window.open(url, '_blank', 'noopener,noreferrer');
       };
 
+    const BlackBerry = ""
+
     const PulseMedica = "Wrote software for a medical device. Designed and programmed 3 separate interfaces. Implemented laser, imaging, and FPGA functionalities on the C++ backend. Implemented a test plan for Health Canada submission.";
 
     const HWE = "Created a React web application aimed to provide insight into potential client's current methane emissions. The application collected over 25 data points and provided a weighted diagnostic on how well firms were reducing their emissions.";
@@ -50,6 +52,9 @@ const Work = () => {
             <Navbar current="work"/>
             <MainContainer>
                 <div className="flex flex-row flex-wrap justify-center">
+                    <JobCard hoverable role="Software Development Student" org="BlackBerry" date="May 2023 - Present" onClick={() => openInNewTab("https://www.blackberry.com/us/en/products/automotive/blackberry-ivy")}>
+                        {BlackBerry}
+                    </JobCard>
                     <JobCard hoverable role="Software Development Intern" org="PulseMedica" date="Jan. 2022 - Aug. 2022" onClick={() => openInNewTab("https://www.pulsemedica.com/")}>
                         {PulseMedica}
                     </JobCard>

@@ -1,7 +1,7 @@
 import React from "react";
 import tw from "tailwind-styled-components";
 import { Link } from "react-router-dom";
-import Pdf from '../assets/ArjunResume.pdf';
+// import Pdf from '../assets/ArjunResume.pdf';
 
 
 const NavContainer = tw.div`
@@ -29,7 +29,7 @@ const Navbar = (props) => {
             <Name className={props.current == "about" ? currentStyle : ""}><Link to="/">About Me</Link></Name>
             <Name className={props.current == "projects" ? currentStyle : ""}><Link to="/projects">Projects</Link></Name>
             <Name className={props.current == "work" ? currentStyle : ""}><Link to="/work">Work</Link></Name>
-            <Name><a href={Pdf} target="_blank">Resume</a></Name>
+            {/* <Name><a href={Pdf} target="_blank">Resume</a></Name> */}
             {/*<Name>Summary</Name> */}
         </NavContainer>
     );
