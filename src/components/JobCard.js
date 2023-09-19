@@ -46,7 +46,7 @@ const SmallHeader = tw.h2`
 
 const JobCard = (props) => {
     return(
-        <JCard hoverable={props.hoverable}>
+        <JCard onClick={props.onClick} hoverable={props.hoverable}>
             <HeaderContainer>
                 <BigHeader>
                     <b>{props.role}</b>
