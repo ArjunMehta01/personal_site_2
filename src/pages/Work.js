@@ -54,7 +54,7 @@ const Work = () => {
             <Navbar current="work"/>
             <MainContainer>
                 <div className="flex flex-row flex-wrap justify-center">
-                    <JobCard hoverable role="Product Management Studnet" org="BlackBerry" date="Sept. 2023 - Present" onClick={() => openInNewTab("https://www.blackberry.com/us/en/products/asset-tracking")}>
+                    <JobCard hoverable role="Product Management Student" org="BlackBerry" date="Sept. 2023 - Present" onClick={() => openInNewTab("https://www.blackberry.com/us/en/products/asset-tracking")}>
                         {BBProduct}
                     </JobCard>
                     <JobCard hoverable role="Software Development Student" org="BlackBerry" date="May 2023 - Aug. 2023" onClick={() => openInNewTab("https://www.blackberry.com/us/en/products/automotive/blackberry-ivy")}>
