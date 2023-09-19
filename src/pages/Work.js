@@ -39,7 +39,9 @@ const Work = () => {
         window.open(url, '_blank', 'noopener,noreferrer');
       };
 
-    const BlackBerry = ""
+    const BBProduct = ""
+
+    const BlackBerry = "Wrote software for BlackBerry IVY. Primarily worked on building proof of concepts for original equipment manufactures (OEMs)"
 
     const PulseMedica = "Wrote software for a medical device. Designed and programmed 3 separate interfaces. Implemented laser, imaging, and FPGA functionalities on the C++ backend. Implemented a test plan for Health Canada submission.";
 
@@ -52,7 +54,10 @@ const Work = () => {
             <Navbar current="work"/>
             <MainContainer>
                 <div className="flex flex-row flex-wrap justify-center">
-                    <JobCard hoverable role="Software Development Student" org="BlackBerry" date="May 2023 - Present" onClick={() => openInNewTab("https://www.blackberry.com/us/en/products/automotive/blackberry-ivy")}>
+                    <JobCard hoverable role="Product Management Studnet" org="BlackBerry" date="Sept. 2023 - Present" onClick={() => openInNewTab("https://www.blackberry.com/us/en/products/asset-tracking")}>
+                        {BBProduct}
+                    </JobCard>
+                    <JobCard hoverable role="Software Development Student" org="BlackBerry" date="May 2023 - Aug. 2023" onClick={() => openInNewTab("https://www.blackberry.com/us/en/products/automotive/blackberry-ivy")}>
                         {BlackBerry}
                     </JobCard>
                     <JobCard hoverable role="Software Development Intern" org="PulseMedica" date="Jan. 2022 - Aug. 2022" onClick={() => openInNewTab("https://www.pulsemedica.com/")}>
@@ -73,6 +78,16 @@ const Work = () => {
                             <b>Events & Accomplishments</b>
                         </h1>
                     </AccompsHeader>
+                    <Accomps>
+                            <div className=" h-full flex justify-center items-center">
+                                <Year className="text-5xl">2023</Year>
+                            </div>
+                            <div>
+                                <Event name="Smith School of Business EDII Case Competition">
+                                    Ideated and submitted a strategy for increasing diversity in the Smith School of Business Staff.
+                                </Event>
+                            </div>
+                    </Accomps>     
                     <Accomps>
                             <div className=" h-full flex justify-center items-center">
                                 <Year className="text-5xl">2022</Year>

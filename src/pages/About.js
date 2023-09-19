@@ -36,8 +36,7 @@ const About = (props) => {
                             Hi I'm <b>Arjun Mehta</b>
                         </HText>
                         <PText>
-                            I'm a fourth year software engineering student at the University of Alberta. I'm interested in web development and data analysis
-                            but I'm also exploring artificial intelligence. I'm passionate about making a difference through technology and entrepreneurship. When I'm not studying or working on my latest project
+                            I'm a final year software engineering student at the University of Alberta. I'm interested in product management and IoT. I'm passionate about making a difference through technology and entrepreneurship. When I'm not studying or working on my latest project
                             you can find me in the gym or watching the Toronto Raptors.
                         </PText>
                     </div>
@@ -52,7 +51,7 @@ const About = (props) => {
                             What's Cookin' 
                         </HText>
                         <PText>
-                            Outside of starting my fourth year of university, I've been working on side projects and exploring the city of Edmonton. (picture from Elk Island National Park, AB).
+                            Outside of starting my final year of university, I've been working on side projects and getting some much needed sun. (picture from Elk Island National Park, AB).
                         </PText>
                     </div>
                 </div>
