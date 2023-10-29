@@ -83,6 +83,9 @@ const Work = () => {
                                 <Year className="text-5xl">2023</Year>
                             </div>
                             <div>
+                                <Event name="CyientifIQ Innovation League Hackathon">
+                                    Submitted a technical proposal for an environmental monitering IoT platform and device.
+                                </Event>                                
                                 <Event name="Smith School of Business EDII Case Competition">
                                     Ideated and submitted a strategy for increasing diversity in the Smith School of Business Staff.
                                 </Event>
